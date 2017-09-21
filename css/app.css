@@ -1,0 +1,10 @@
+/* when the form input has not changed and there is a value angular applys the class .ng-pristine */
+.ng-pristine{border:1px solid green;}
+/* when the form input changes angular applys the class .ng-dirty*/
+.ng-dirty{border:1px solid yellow;}
+/* when an element becomes invalid angular applys the class .ng-invalid*/
+.ng-invalid.ng-dirty{border:1px solid red;}
+/* when an element becomes valid angular applys the class .ng-valid*/
+.ng-valid.ng-dirty{border:1px solid green;}
+/* angular also adds custom classes for validations that fail */
+.ng-invalid-minlength.ng-dirty{border:1px solid blue;}
